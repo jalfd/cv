@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <title>Jesper Alf Dam</title>
+    <link rel="stylesheet" href="cv.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1>Jesper Alf Dam</h1>
+            <h2>Softwareudvikler</h2>
+            <p>+45 26 15 12 35</p>
+            <p><a href="mailto:cv@jalf.dk">cv@jalf.dk</a></p>
+            <p><a href=" www.linkedin.com/in/jalfd"> www.linkedin.com/in/jalfd</a></p>
+        </header>
+        <section>
+            <h2>Performance-nørd og kode-hjælpenisse</h2>
+            <p> Jeg har i snart 12 år arbejdet med medicinsk
+                billeddiagnostik, hvilket har budt på mange spændende udfordringer. Vores software benyttes på
+                hospitaler hvilket stiller høje krav både til hastighed og stabilitet. Jeg trives som generalisten og problemløseren
+                der bistår hvis der skal debugges, profileres eller optimeres, og som udarbejder hjælpebiblioteker og
+                værktøjer til resten af holdet.
+            </p>
+            <p> På datalogistudiet interesserede jeg mig meget for parallelprogrammering, HPC, performance og hardwareforståelse.
+                Dengang stiftede bekendskab med teknologier som MPI, OpenMP, CSP med mere, mit speciale omhandlede parallelisme (jeg
+                implementerede <em>transactional memory</em> som et C++-bibliotek), og mit bachelorprojekt drejede sig om at
+                optimere en fluid dynamics simulation.
+            </p>
+            <p>
+                Som person er jeg positiv og åben og vil altid gerne både lære og lære fra mig. Jeg sætter pris på et
+                inkluderende arbejdsmiljø der har plads til alle.
+            </p>
+        </section>
+
+        <section>
+            <h2>Kompetencer</h2>
+            <article class="skills">
+                <h4>Erfaren:</h4>
+                <ul class="csv">
+                    <li>C++</li>
+                    <li>Git</li>
+                    <li>CMake</li>
+                    <li>Node.JS</li>
+                    <li>Typescript</li>
+                    <li>GDB</li>
+                    <li>Catch2 test framework</li>
+                    <li>Boost</li>
+                    <li>Qt</li>
+                </ul>
+            </article>
+
+            <article class="skills">
+                <h4>Basalt kendskab til:</h4>
+                <ul class="csv">
+                    <li>Azure Pipelines CI</li>
+                    <li>Jenkins CI</li>
+                </ul>
+            </article>
+
+            <article class="skills">
+                <h4>Rusten, men har dog været i kontakt med:</h4>
+                <ul class="csv">
+                    <li>MPI</li>
+                    <li>OpenMP</li>
+                    <li>Ansible</li>
+                </ul>
+            </article>
+        </section>
+        <section>
+            <h2>Erhvervserfaring</h2>
+            <article>
+                <h3>Canon Medical Informatics<span class="when">2011&mdash;nu</span></h3>
+                <span class="aka">(fhv. Vital Images, Karos Health og Medical Insight A/S)</span>
+                <h4>Senior Software Engineer</h4>
+                <p>En del af et team på ca. 10 udviklere som står bag en applikation til medicinsk billeddiagnostik.
+                    Applikationen er skrevet i C++ til Linux og Windows, og har strenge
+                    krav til performance og korrekthed, da sygehuses evner til at diagnosticere patienter afhænger af
+                    vi hurtigt kan at hente og fremvise store dataset. Applikationen kan køre lokalt, eller streames fra et server-cluster som skalerer
+                    til flere hundrede samtidige brugere.</p>
+                <p>Som en del af infrastruktur-teamet var jeg ansvarlig for at udvikle og vedligeholde interne
+                    biblioteker, værktøjer og services, at måle og optimere performance, integrere til andre
+                    produkter, og generelt fungere som all-round problemløser med bredt kendskab til hele kodebasen.</p>
+                <ul>
+                    <li>Gennemførte adskillige performance-forbedringer således at slutbrugeren kan hente en scanning
+                        (typisk mange gigabyte data) og få den vist på skærmen indenfor cirka 1.5 sekunder.</li>
+                    <li>Tilføjede tracing-funktionalitet der tillader hurtig og effektiv diagnosticering af
+                        performance-problemer</li>
+                    <li>Udviklede en HTML-baseret streaming-klient så applikationen kan bruges fra en browser</li>
+                    </li>
+                </ul>
+            </article>
+            <article>
+                <h3>Schilling A/S<span class="when">2011</span></h3>
+                <h4>Softwareudvikler</h4>
+                <p>Schilling laver bogføringssoftware til forlagsbranchen. Jeg sad i et mindre
+                    tooling/platform team som havde ansvaret for de værktøjer og biblioteker som resten af
+                    udviklingsholdet benyttede.
+                </p>
+                <ul>
+                    <li>Var ansvarlig for virksomhedens skift til Git, herunder planlægning, udvikling af kode til at
+                        importere historik fra tidligere versionsstyring, samt oplæring af udviklingsholdet</li>
+                </ul>
+            </article>
+            <article>
+                <h3>The Nordic Company<span class="when">2006&mdash;2010</span></h3>
+                <h4>Studenterprogrammør</h4>
+                <p>En lille startup som udviklede software primært til transportbranchen hvor kurerer og chauffører
+                    kunne benytte firmaets mobile app til koordinering og ruteplanlægning.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Uddannelse</h2>
+            <article>
+                <h3>Datalog (Cand.scient.dat), Københavns Universitet<span class="when">2010</span></h3>
+                <h4>Særligt relevante projekter og kurser</h4>
+                <ul>
+                    <li>Speciale: Software Transactional Memory</li>
+                    <li>Kursus: Ekstrem Multiprogrammering</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Datalog (Bachelor), Københavns Universitet<span class="when">2006</span></h3>
+                <h4>Særligt relevante projekter og kurser</h4>
+                <ul>
+                    <li>Bachelorprojekt: Optimering af fluid dynamics simulation</li>
+                    <li>Introduktion til Distribuerede Systemer</li>
+                </ul>
+            </article>
+        </section>
+    </div>
+</body>
+
+</html>
