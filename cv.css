@@ -237,3 +237,17 @@ article {
 li, p {
     break-inside: avoid;
 }
+
+.jobapply {
+    line-height: 1.5em;
+}
+
+.jobapply p {
+    line-height: 1.5em;
+    margin-top: 0.5em;
+}
+
+footer {
+    margin-left: 2em;
+    margin-right: 2em;
+}
