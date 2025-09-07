@@ -202,9 +202,11 @@ h3, h4 {
 }
 
 .when {
-    padding-left: 3em;
+    /* padding-left: 3em; */
     font-style: italic;
     font-size: 80%;
+    position: absolute;
+    left: 300px;
 }
 
 .csv {
