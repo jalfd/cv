@@ -74,7 +74,7 @@ body>div {
     padding: 20px;
     margin: 20px auto;
     min-width: 300px;
-    max-width: 600px;
+    max-width: 650px;
     position: relative;
 }
 
@@ -132,7 +132,8 @@ li {
     margin-left: 5px;
     list-style-position: inside;
     list-style-type: circle;
-    padding-left: 0
+    padding-left: 0;
+    padding-bottom: 5px;
 }
 
 ol>li {
@@ -206,7 +207,8 @@ h3, h4 {
     font-style: italic;
     font-size: 80%;
     position: absolute;
-    left: 300px;
+    right: 100px;
+    width: 100px;
 }
 
 .csv {
@@ -252,4 +254,8 @@ li, p {
 footer {
     margin-left: 2em;
     margin-right: 2em;
+}
+
+.sharpen {
+    color: red;
 }
