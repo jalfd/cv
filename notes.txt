@@ -1,0 +1,1 @@
+ weasyprint -s cv.css index.html result.pdf && open result.pdf

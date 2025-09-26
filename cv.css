@@ -1,5 +1,5 @@
 body {
-    font-family: Geneva, Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 10pt;
     font-weight: normal;
     color: #000000;
@@ -30,6 +30,7 @@ section {
 
 p {
     margin-top: 0;
+    margin-bottom: 0.3em;
     padding: 0;
 }
 
@@ -133,7 +134,7 @@ li {
     list-style-position: inside;
     list-style-type: circle;
     padding-left: 0;
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
 }
 
 ol>li {
@@ -195,9 +196,11 @@ ol>li {
 }
 
 h4 {
- margin-top: 0.2em;}
+    margin-top: 0.2em;
+}
 
-h3, h4 {
+h3,
+h4 {
     margin-bottom: 0.2em;
     /* margin-top: 0.2em; */
 }
@@ -207,7 +210,7 @@ h3, h4 {
     font-style: italic;
     font-size: 80%;
     position: absolute;
-    right: 100px;
+    right: 0px;
     width: 100px;
 }
 
@@ -234,12 +237,14 @@ section {
     break-after: auto;
     break-inside: auto;
 }
+
 article {
     break-after: auto;
     break-inside: avoid;
 }
 
-li, p {
+li,
+p {
     break-inside: avoid;
 }
 
@@ -259,4 +264,19 @@ footer {
 
 .sharpen {
     color: red;
+}
+
+@media print {
+    body>div {
+        background-color: #ffffff;
+    }
+
+}
+
+@page {
+    size: a4;
+
+    @bottom-center {
+        content: "Page " counter(page) " of " counter(pages);
+    }
 }
