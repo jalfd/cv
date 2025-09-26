@@ -266,11 +266,14 @@ footer {
     color: red;
 }
 
+footer {
+    display: none;
+}
+
 @media print {
     body>div {
         background-color: #ffffff;
     }
-
 }
 
 @page {
