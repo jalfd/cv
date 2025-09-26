@@ -236,6 +236,7 @@ section {
 }
 article {
     break-after: auto;
+    break-inside: avoid;
 }
 
 li, p {
