@@ -1,1 +1,5 @@
  weasyprint -s cv.css index.html result.pdf && open result.pdf
+
+ Rewrite bulk of job desc paragraph to be bullet(s).
+
+ A one-liner on the product/codebase is fine but we don't want a second one about my role on the team, at least unless we can reword it (as a part of the X team I did blah blah and blah)
