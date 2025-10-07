@@ -3,7 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <title>Jesper Alf Dam</title>
-    <link rel="stylesheet" href="cv.css" />
+    <link rel="stylesheet" href="common.css" />
+    <style>
+      @page {
+        size: a4;
+
+        @bottom-center {
+          content: "Page " counter(page) " of " counter(pages);
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -45,8 +54,8 @@
             </p>
             <ul>
               <li>
-                member of the core platform group which owns core libraries, the CI/CD
-                pipeline and build tools and drives continuous improvement
+                member of the core platform group which owns core libraries, the
+                CI/CD pipeline and build tools and drives continuous improvement
                 efforts and agile development practices
               </li>
               <li>
@@ -118,12 +127,14 @@
           <h2>Education</h2>
           <article>
             <h3>
-              MSc. Computer Science (Datalogi), Uni. of Copenhagen<span class="when"
+              MSc. Computer Science (Datalogi), Uni. of Copenhagen<span
+                class="when"
                 >2010</span
               >
             </h3>
             <h3>
-              BSc. Computer Science (Datalogi), Uni. of Copenhagen<span class="when"
+              BSc. Computer Science (Datalogi), Uni. of Copenhagen<span
+                class="when"
                 >2006</span
               >
             </h3>

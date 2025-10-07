@@ -1,8 +1,9 @@
+styleflags = -s common.css
 rule pdfify
-  command = weasyprint -s cv.css $in $out
+  command = weasyprint $styleflags $in $out
 
-build out/cv.pdf: pdfify cv.html | cv.css
-build out/cover-letter.pdf: pdfify cover-letter.html | cv.css
+build out/cv.pdf: pdfify cv.html | common.css
+build out/cover-letter.pdf: pdfify cover-letter.html | common.css
 
 build cv: phony out/cv.pdf
 build cover-letter: phony out/cover-letter.pdf

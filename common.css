@@ -283,11 +283,3 @@ footer {
         background-color: #ffffff;
     }
 }
-
-@page {
-    size: a4;
-
-    @bottom-center {
-        content: "Page " counter(page) " of " counter(pages);
-    }
-}
