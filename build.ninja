@@ -1,8 +1,8 @@
 rule pdfify
   command = weasyprint -s cv.css $in $out
 
-build out/cv.pdf: pdfify cv.html
-build out/cover-letter.pdf: pdfify cover-letter.html
+build out/cv.pdf: pdfify cv.html | cv.css
+build out/cover-letter.pdf: pdfify cover-letter.html | cv.css
 
 build cv: phony out/cv.pdf
 build cover-letter: phony out/cover-letter.pdf
