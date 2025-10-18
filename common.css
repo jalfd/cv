@@ -19,6 +19,7 @@ header {
     text-align: center;
     position: relative;
     z-index: 1;
+    line-height: 1.0em;
 }
 
 section {
@@ -45,6 +46,7 @@ h1 {
     margin: 5px;
     font-size: 2em;
     font-weight: bold;
+    line-height: 1.2em;
 }
 
 h2 {
@@ -73,7 +75,7 @@ body>div {
     background-color: #F6F6F6;
     text-align: left;
     padding: 20px;
-    margin: 20px auto;
+    margin: 0px auto;
     min-width: 300px;
     max-width: 650px;
     position: relative;
@@ -281,5 +283,6 @@ footer {
 @media print {
     body>div {
         background-color: #ffffff;
+        padding: 0px 20px;
     }
 }
